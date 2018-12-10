@@ -1,0 +1,22 @@
+{
+  "name": "Playground",
+  "version": "1.0.0",
+  "description": "A Test Module",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "nyc --check-coverage --lines 100 --functions 100 --branches 100 mocha --exit"
+  },
+  "author": "WTMC Inc.",
+  "license": "",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "module-loader": "git+https://github.com/WTMC/module-loader.git"
+  }
+}
