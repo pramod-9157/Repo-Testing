@@ -1,7 +1,7 @@
 {
-  "name": "Playground",
+  "name": "Repo-Testing",
   "version": "1.0.0",
-  "description": "A Test Module",
+  "description": "A Repo Test Module",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
